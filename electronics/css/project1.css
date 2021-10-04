@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 128%;
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: black;
+    padding: 1.5%;
+    width: 100%;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+article {
+    width: 67%;
+    margin: 0 auto;
+    /*text-align: justify;*/
+    line-height: 1.5;
+}
+
+article p {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-weight: 200;
+}
+
+#down-nav {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+article a {
+    display: inline-block;
+    width: 28%;
+    padding-left: 2%;
+    padding-right: 0;
+    margin-right: 0px;
+}
